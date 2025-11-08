@@ -90,14 +90,11 @@ function renderFlowerCards() {
           aria-label="Add to compare"
         >
         <img src="${flower.image}" alt="${flower.title}">
-        <div class="decor-card-text-overlay">
+        <div class="decor-card-body">
           <h3>${flower.title}</h3>
           <p>${flower.description}</p>
+          <div class="price">${flower.price}</div>
         </div>
-      </div>
-      <div class="row">
-        <p class="col-lg-6">${flower.detailA}</p>
-        <p class="col-lg-6">${flower.detailB}</p>
       </div>
     `;
 
