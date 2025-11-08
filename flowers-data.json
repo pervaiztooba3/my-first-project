@@ -5,81 +5,63 @@
       "title": "Elegant Blush-Themed",
       "description": "Outdoor setup with pastel drapes & soft lighting.",
       "image": "asset/engagment/Blush_Serenity_Engagement_Setup.jpg",
-      "price": "PKR 25,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 25,000"
     },
     {
       "id": "e2",
       "title": "Blush Pink Roses",
       "description": "Soft tones that whisper love and admiration.",
       "image": "asset/engagment/59351c003c97357a658ec9f91c65eac9.jpg",
-      "price": "PKR 30,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 30,000"
     },
     {
       "id": "e3",
       "title": "Scarlet Charm",
       "description": "Vibrant hues that speak louder than words.",
       "image": "asset/engagment/a43ea5c04909093940b786e1321f9d86.jpg",
-      "price": "PKR 27,500",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 27,500"
     },
     {
       "id": "e4",
       "title": "Soft Bloom Mix",
       "description": "Blended tones for an unforgettable gesture.",
       "image": "asset/engagment/14114d276568a229fcec3e076b36dfb8.jpg",
-      "price": "PKR 22,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 22,000"
     },
     {
       "id": "e5",
       "title": "Rosy Glow",
       "description": "Gentle pink roses that brighten every heart.",
       "image": "asset/engagment/e68c5a22071b727523ef0ed444f29bed.jpg",
-      "price": "PKR 24,500",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 24,500"
     },
     {
       "id": "e6",
       "title": "Rosy Elegance",
       "description": "Classic red roses for timeless expressions.",
       "image": "asset/engagment/e8453f99b9b977b93dcba1657385d7c0.jpg",
-      "price": "PKR 28,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 28,000"
     },
     {
       "id": "e7",
       "title": "Romantic Swing Harmony",
       "description": "Swing with roses — dreamy photos guaranteed.",
       "image": "asset/engagment/Romantic_Rose_Harmony_Swing.jpg",
-      "price": "PKR 26,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 26,000"
     },
     {
       "id": "e8",
       "title": "Semi-Arch Duo",
       "description": "Two semi-arches topped with flowers for an elegant look.",
       "image": "asset/engagment/two+flower+in+semi-arches+.webp",
-      "price": "PKR 29,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 29,000"
     },
     {
       "id": "e9",
       "title": "Blushing Bloom Arch",
       "description": "Graceful arch to frame your special moment.",
       "image": "asset/engagment/Blushing_Bloom_Elegance_Arch.avif",
-      "price": "PKR 31,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 31,000"
     }
   ],
   "birthday": [
@@ -88,110 +70,107 @@
       "title": "Velvet Red Roses",
       "description": "Passion, romance, and elegance in every bloom.",
       "image": "asset/birthdayy/18b39019083e419305bc60359cd3cfbf.jpg",
-      "price": "PKR 20,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 20,000"
     },
     {
       "id": "b2",
       "title": "Blush Pink Roses",
       "description": "Soft tones that whisper love and admiration.",
       "image": "asset/birthdayy/18edf06221a56cc1060a7d183f6e0184.jpg",
-      "price": "PKR 22,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 22,000"
     },
     {
       "id": "b3",
       "title": "Scarlet Charm",
       "description": "Vibrant hues that speak louder than words.",
       "image": "asset/birthdayy/1f30d2e4c77804e6a5387763248cd7b7.jpg",
-      "price": "PKR 21,500",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 21,500"
     },
     {
       "id": "b4",
       "title": "Soft Bloom Mix",
       "description": "Blended tones for an unforgettable gesture.",
       "image": "asset/birthdayy/2ad3ea2305c91788185a026e2ed459f5.jpg",
-      "price": "PKR 19,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 19,000"
     },
     {
       "id": "b5",
       "title": "Rosy Glow",
       "description": "Gentle pink roses that brighten every heart.",
       "image": "asset/birthdayy/895691e0a84d2669dfc6e4ef2381268d.jpg",
-      "price": "PKR 23,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 23,000"
     },
     {
       "id": "b6",
       "title": "Rosy Elegance",
       "description": "Classic red roses for timeless expressions.",
       "image": "asset/birthdayy/clicbliss_2.webp",
-      "price": "PKR 24,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 24,000"
     },
     {
       "id": "b7",
       "title": "Classic Bloom",
       "description": "Classic red roses for timeless expressions.",
       "image": "asset/birthdayy/e0c70e9c7022c7624bd33b2029fb2dbf.jpg",
-      "price": "PKR 25,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 25,000"
     },
     {
       "id": "b8",
       "title": "Royal Red",
       "description": "Classic red roses for timeless expressions.",
       "image": "asset/birthdayy/f7ef72d51a3dc78817cebd716bb1516b.jpg",
-      "price": "PKR 26,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 26,000"
     },
     {
       "id": "b9",
       "title": "Elegant Rose Setup",
       "description": "Classic red roses for timeless expressions.",
       "image": "asset/birthdayy/Sba7b0d33d934464ba82e03ce7e869784K.webp",
-      "price": "PKR 27,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "price": "PKR 27,000"
     }
   ],
   "wedding": [
     {
       "id": "w1",
-      "title": "Grand Wedding Arch",
-      "description": "Majestic floral arch for your special day.",
-      "image": "asset/wedding/wedding1.jpg",
-      "price": "PKR 45,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "title": "Velvet Red Roses",
+      "description": "Passion and romance in every bloom.",
+      "image": "asset/wedding/pngtree-bridal-swings-floral-wedding-decor-picture-image_15560970.jpg",
+      "price": "PKR 32,000"
     },
     {
       "id": "w2",
-      "title": "Elegant White Roses",
-      "description": "Pure white roses symbolizing eternal love.",
-      "image": "asset/wedding/wedding2.jpg",
-      "price": "PKR 35,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "title": "Blush Pink Roses",
+      "description": "Soft tones that whisper love.",
+      "image": "asset/wedding/pngtree-stunning-wedding-sofa-with-gorgeous-flower-arrangements-picture-image_15943068.jpg",
+      "price": "PKR 30,000"
     },
     {
       "id": "w3",
-      "title": "Romantic Centerpiece",
-      "description": "Beautiful table centerpieces for wedding reception.",
-      "image": "asset/wedding/wedding3.jpg",
-      "price": "PKR 32,000",
-      "detailA": "Lorem ipsum dolor",
-      "detailB": "Lorem ipsum"
+      "title": "Scarlet Charm",
+      "description": "Vibrant hues for timeless beauty.",
+      "image": "asset/wedding/pngtree-stylish-floral-wedding-decor-with-ornate-ivory-sofa-image_16461535.jpg",
+      "price": "PKR 35,000"
+    },
+    {
+      "id": "w4",
+      "title": "Soft Bloom Mix",
+      "description": "Elegance blended with affection.",
+      "image": "asset/wedding/sophisticated-bridal-table-setting-with-cascading-greenery-blush-pink-roses-and-white-hydrangeas-against-illuminated-ivory-fabric-backdrop-photo.jpeg",
+      "price": "PKR 28,500"
+    },
+    {
+      "id": "w5",
+      "title": "Rosy Glow",
+      "description": "Gentle blooms that warm every heart.",
+      "image": "asset/wedding/1592991921_weddingbling__20200621_171125_3.avif",
+      "price": "PKR 26,000"
+    },
+    {
+      "id": "w6",
+      "title": "Rosy Elegance",
+      "description": "Classic red for eternal love.",
+      "image": "asset/wedding/17_120319032515.jpg",
+      "price": "PKR 33,000"
     }
   ]
 }
