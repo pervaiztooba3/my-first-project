@@ -94,6 +94,11 @@ function renderFlowerCards() {
           <h3>${flower.title}</h3>
           <p>${flower.description}</p>
           <div class="price">${flower.price}</div>
+          ${flower.downloadFile ? `
+            <button class="btn-read-more" data-file="${flower.downloadFile}" data-title="${flower.title}">
+              Read More
+            </button>
+          ` : ''}
         </div>
       </div>
     `;
@@ -103,6 +108,9 @@ function renderFlowerCards() {
 
   // Attach checkbox events
   attachCheckboxEvents();
+
+  // Attach read more button events
+  attachReadMoreEvents();
 
   // Refresh animations
   if (window.AOS) {
@@ -129,6 +137,38 @@ function attachCheckboxEvents() {
       }
     });
   });
+}
+
+// ==============================================
+// 4.5. READ MORE BUTTON EVENTS (Download Word Files)
+// ==============================================
+function attachReadMoreEvents() {
+  const readMoreButtons = document.querySelectorAll(".btn-read-more");
+  
+  readMoreButtons.forEach(button => {
+    button.addEventListener("click", function() {
+      const filePath = this.dataset.file;
+      const title = this.dataset.title;
+      
+      if (filePath) {
+        downloadWordFile(filePath, title);
+      }
+    });
+  });
+}
+
+function downloadWordFile(filePath, title) {
+  // Create a temporary anchor element
+  const link = document.createElement("a");
+  link.href = filePath;
+  link.download = filePath.split("/").pop(); // Get filename from path
+  
+  // Append to body, click, and remove
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  
+  console.log(`Downloading: ${title} - ${filePath}`);
 }
 
 // ==============================================
