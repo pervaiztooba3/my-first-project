@@ -11,7 +11,7 @@ h3 {
   color: #e75480;
 }
 
-Section Header
+/* Section Header */
 .decor-section {
   margin-top: 80px;
   text-align: center;
@@ -84,7 +84,7 @@ Section Header
   margin-bottom: 10px;
 }
 
-Checkbox
+/* Checkbox */
 .decor-checkbox {
   position: absolute;
   top: 15px;
@@ -121,7 +121,7 @@ Checkbox
   transform: scale(1.05);
 }
 
-Summary Section
+/* Summary Section */
 .decor-summary-section {
   background-color: #ffe6ef;
   text-align: center;
