@@ -255,12 +255,12 @@ const allFlowersData = {
       "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
     }
   ],
-   "TableArangment": [
+   "TableArrangement": [
     {
       "id": "t1",
       "title": "Velvet Red Roses",
       "description": "Passion and romance in every bloom.",
-      "image": "asset/wedding/pngtree-bridal-swings-floral-wedding-decor-picture-image_15560970.jpg",
+      "image": "asset/table_arrangment/istockphoto-916474968-612x612.jpg",
       "price": "PKR 32,000",
       "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
     },
@@ -268,7 +268,7 @@ const allFlowersData = {
       "id": "t2",
       "title": "Blush Pink Roses",
       "description": "Soft tones that whisper love.",
-      "image": "asset/wedding/pngtree-stunning-wedding-sofa-with-gorgeous-flower-arrangements-picture-image_15943068.jpg",
+      "image": "asset/table_arrangment/istockphoto-1197789061-612x612.jpg",
       "price": "PKR 30,000",
       "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
     },
@@ -276,7 +276,7 @@ const allFlowersData = {
       "id": "t3",
       "title": "Scarlet Charm",
       "description": "Vibrant hues for timeless beauty.",
-      "image": "asset/wedding/pngtree-stylish-floral-wedding-decor-with-ornate-ivory-sofa-image_16461535.jpg",
+      "image": "asset/table_arrangment/tbs1_grande.jpg",
       "price": "PKR 35,000",
       "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
     },
@@ -284,7 +284,7 @@ const allFlowersData = {
       "id": "t4",
       "title": "Soft Bloom Mix",
       "description": "Elegance blended with affection.",
-      "image": "asset/wedding/sophisticated-bridal-table-setting-with-cascading-greenery-blush-pink-roses-and-white-hydrangeas-against-illuminated-ivory-fabric-backdrop-photo.jpeg",
+      "image": "asset/table_arrangment/wedding-flower-tips-for-brides-meaning-2.jpg",
       "price": "PKR 28,500",
       "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
     },
@@ -327,6 +327,10 @@ function detectCategory() {
     return "birthday";
   } else if (url.includes("wedding")) {
     return "wedding";
+  } else if (url.includes("tablearrangement")) {
+    return "TableArrangement";
+  } else if (url.includes("BridalShower")) {
+    return "BridalShower";
   }
   
   // Default fallback
