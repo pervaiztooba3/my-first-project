@@ -10,6 +10,7 @@
 /* 🌸 Navbar */
 .navigation {
   background-color: rgb(201, 106, 156);
+  /* background-color: rgb(185 87 139 / 86%); */
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -408,3 +409,83 @@ body {
   border-radius: 50%;
 }
 /* ----------- about css end ------------- */
+
+
+/* ---------------------- Order Now Page ----------------------------------- */
+
+
+    .order-section {
+      background-color: #ffe6ef;
+      padding: 60px 20px;
+      border-bottom: 3px solid #ffd1dc;
+      text-align: center;
+    }
+
+    .order-section h1 {
+      font-family: "Great Vibes", cursive;
+      color: #e75480;
+      font-size: 3rem;
+    }
+
+    .order-section p {
+      color: #b36e6e;
+      font-family: "Great Vibes", cursive;
+      font-size: 22px;
+    }
+
+    .order-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 50px auto;
+      max-width: 700px;
+    }
+
+    .order-form {
+      background: white;
+      width: 100%;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .order-form label {
+      color: #e75480;
+      font-weight: 600;
+    }
+
+    .order-form input, 
+    .order-form select, 
+    .order-form textarea {
+      border-radius: 10px;
+      border: 1px solid #ffd1dc;
+    }
+
+    .order-btn {
+      background-color: #e75480;
+      color: white;
+      border-radius: 30px;
+      padding: 12px 25px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      border: none;
+    }
+
+    .order-btn:hover {
+      background-color: #c7446a;
+      transform: scale(1.05);
+    }
+
+    .order-footer {
+      background-color: #fff;
+      color: #e75480;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      border-top: 2px solid #ffd1dc;
+      margin-top: 40px;
+    }
+
+
+/* ---------------------- Order Now Page ----------------------------------- */
