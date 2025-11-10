@@ -27,9 +27,11 @@
 }
 
 a.btn.btn-light.text-dark.fw-semibold {
-    padding: 3px 10px 0px 10px;
-    height: 33px;
-        margin: 4px 1px 0px 0px;
+    border: 2px solid;
+    /* border-radius: 6px; */
+    padding: 0px 14px 24px 14px;
+    height: 25px;
+    margin: 4px 1px 0px 3px;
 
 }
 
