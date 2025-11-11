@@ -399,9 +399,7 @@ function renderFlowerCards() {
           <button class="btn-read-more" data-file="${flower.downloadFile}" data-title="${flower.title}">
             Read More
           </button>
-          <button class="btn-book-now" data-id="${flower.id}" data-title="${flower.title}">
-            Book Now
-          </button>
+          <a href="booknow.html" class="btn-book-now"> Book Now </a>
         </div>
       ` : ''}
     </div>
