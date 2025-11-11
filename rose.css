@@ -308,3 +308,36 @@ h3 {
   transform: scale(0.98);
 } 
 
+/* --------------- book now btn css ------------------- */
+
+.btn-book-now {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 8px;
+  padding: 8px 20px;
+  background-color: #c7446a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-book-now:hover {
+  background-color: #a83254;
+}
+
+.btn-book-now:active {
+  transform: scale(0.98);
+}
+
+.decor-card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* --------------- book now btn css ------------------- */
