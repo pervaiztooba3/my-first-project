@@ -378,30 +378,7 @@ function renderFlowerCards() {
     col.setAttribute("data-aos", "zoom-in");
     col.setAttribute("data-aos-delay", (index + 1) * 100);
 
-    // col.innerHTML = `
-    //   <div class="decor-card">
-    //     <input 
-    //       type="checkbox" 
-    //       class="decor-checkbox" 
-    //       data-id="${flower.id}" 
-    //       ${isChecked ? "checked" : ""}
-    //       aria-label="Add to compare"
-    //     >
-    //     <img src="${flower.image}" alt="${flower.title}">
-    //     <div class="decor-card-body">
-    //       <h3>${flower.title}</h3>
-    //       <p>${flower.description}</p>
-    //       <div class="price">${flower.price}</div>
-    //       ${flower.downloadFile ? `
-    //         <button class="btn-read-more" data-file="${flower.downloadFile}" data-title="${flower.title}">
-    //           Read More
-    //         </button>
-    //       ` : ''}
-    //     </div>
-    //   </div>
-    // `;
-
-
+    // card render 
 
     col.innerHTML = `
   <div class="decor-card">
