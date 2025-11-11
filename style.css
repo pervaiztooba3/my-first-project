@@ -139,11 +139,12 @@ a.btn.btn-light.text-dark.fw-semibold {
 }
 
 .btn_demo {
-    border: 2px solid rgb(223, 174, 174);
+    text-decoration: none;
+    border-radius: 13px;
+    border: 2px solid #f4c4dd;
     padding: 10px 30px 10px 30px;
-    background-color: #f1bcbc;
-    color: rgb(190, 87, 104);
-    margin-top: 17px;
+    background-color: #c96a9c;
+    color: rgb(255 255 255);
 }
 
 /* ----------------- secon_end ---------------------------------- */
