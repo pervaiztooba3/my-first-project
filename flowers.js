@@ -158,51 +158,51 @@ const allFlowersData = {
   "wedding": [
     {
       "id": "w1",
-      "title": "Velvet Red Roses",
+      "title": "Blush Pink Roses",
       "description": "Passion and romance in every bloom.",
-      "image": "asset/wedding/pngtree-bridal-swings-floral-wedding-decor-picture-image_15560970.jpg",
+      "image": "asset\wedding\BlushPinkRosses.jpg",
       "price": "PKR 32,000",
-      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docxasset\wedding\Blush Pink Rosses.docx"
     },
     {
       "id": "w2",
-      "title": "Blush Pink Roses",
+      "title": "Pure Petals",
       "description": "Soft tones that whisper love.",
-      "image": "asset/wedding/pngtree-stunning-wedding-sofa-with-gorgeous-flower-arrangements-picture-image_15943068.jpg",
+      "image": "asset\wedding\pure-petals.jpg",
       "price": "PKR 30,000",
-      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset\wedding\Pure Petal Designs.docx"
     },
     {
       "id": "w3",
       "title": "Scarlet Charm",
       "description": "Vibrant hues for timeless beauty.",
-      "image": "asset/wedding/pngtree-stylish-floral-wedding-decor-with-ornate-ivory-sofa-image_16461535.jpg",
+      "image": "asset\wedding\scarlet_charm.jpg",
       "price": "PKR 35,000",
-      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset\wedding\Scarlet Charm.docx"
     },
     {
       "id": "w4",
       "title": "Soft Bloom Mix",
       "description": "Elegance blended with affection.",
-      "image": "asset/wedding/sophisticated-bridal-table-setting-with-cascading-greenery-blush-pink-roses-and-white-hydrangeas-against-illuminated-ivory-fabric-backdrop-photo.jpeg",
+      "image": "asset\wedding\soft_bloom_mix.jpeg",
       "price": "PKR 28,500",
-      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset\wedding\Soft Bloom Mix.docx"
     },
     {
       "id": "w5",
       "title": "Rosy Glow",
       "description": "Gentle blooms that warm every heart.",
-      "image": "asset/wedding/1592991921_weddingbling__20200621_171125_3.avif",
+      "image": "asset\wedding\rosy_glow.jpg",
       "price": "PKR 26,000",
-      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset\wedding\Rosy Glow.docx"
     },
     {
       "id": "w6",
       "title": "Rosy Elegance",
       "description": "Classic red for eternal love.",
-      "image": "asset/wedding/17_120319032515.jpg",
+      "image": "asset\wedding\Rosy Elegance.jpg",
       "price": "PKR 33,000",
-      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset\wedding\Rosy Elegance.docx"
     }
   ],
    "bridalShower": [
