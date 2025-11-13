@@ -10,75 +10,76 @@ const allFlowersData = {
   "engagement": [
     {
       "id": "e1",
-      "title": "Elegant Blush-Themed",
+      "title": "Romantic Rose Harmony",
       "description": "Outdoor setup with pastel drapes & soft lighting.",
-      "image": "asset/engagment/Blush_Serenity_Engagement_Setup.jpg",
+      "image": "asset/engagment/Romantic_Rose_Harmony_Swing.jpg",
       "price": "PKR 25,000",
+      "colorpalette" : "Color Pallete: pink oragne greem yellow blue",
       "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
     },
     {
       "id": "e2",
-      "title": "Blush Pink Roses",
+      "title": "Blush whisper",
       "description": "Soft tones that whisper love and admiration.",
-      "image": "asset/engagment/59351c003c97357a658ec9f91c65eac9.jpg",
+      "image": "asset/engagment/Blush Whisper Retreat.jpg",
       "price": "PKR 30,000",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Blush Whisper Retreat.docx"
     },
     {
       "id": "e3",
-      "title": "Scarlet Charm",
+      "title": "Blushing Elegance",
       "description": "Vibrant hues that speak louder than words.",
-      "image": "asset/engagment/a43ea5c04909093940b786e1321f9d86.jpg",
+      "image": "asset/engagment/Blushing_Bloom_Elegance_Arch.avif",
       "price": "PKR 27,500",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Blushing Elegance Arch.docx"
     },
     {
       "id": "e4",
-      "title": "Soft Bloom Mix",
+      "title": "Garden Serenade Setup",
       "description": "Blended tones for an unforgettable gesture.",
-      "image": "asset/engagment/14114d276568a229fcec3e076b36dfb8.jpg",
+      "image": "asset/engagment/Garden Serenade Setup.jpg",
       "price": "PKR 22,000",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Garden Serenade Setup.docx"
     },
     {
       "id": "e5",
-      "title": "Rosy Glow",
+      "title": "Graceful Drapes Romance",
       "description": "Gentle pink roses that brighten every heart.",
-      "image": "asset/engagment/e68c5a22071b727523ef0ed444f29bed.jpg",
+      "image": "asset/engagment/Graceful Drapes Romance.jpg",
       "price": "PKR 24,500",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Graceful Drapes Romance.docx"
     },
     {
       "id": "e6",
-      "title": "Rosy Elegance",
+      "title": "Ivory Bloom Circle",
       "description": "Classic red roses for timeless expressions.",
-      "image": "asset/engagment/e8453f99b9b977b93dcba1657385d7c0.jpg",
+      "image": "asset/engagment/Ivory Bloom Circle.jpg",
       "price": "PKR 28,000",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Ivory Bloom Circle.docx"
     },
     {
       "id": "e7",
-      "title": "Romantic Swing Harmony",
+      "title": "Petal Window Charm",
       "description": "Swing with roses — dreamy photos guaranteed.",
-      "image": "asset/engagment/Romantic_Rose_Harmony_Swing.jpg",
+      "image": "asset/engagment/Petal Window Charm.jpg",
       "price": "PKR 26,000",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Petal Window Charm.docx"
     },
     {
       "id": "e8",
       "title": "Semi-Arch Duo",
       "description": "Two semi-arches topped with flowers for an elegant look.",
-      "image": "asset/engagment/two+flower+in+semi-arches+.webp",
+      "image": "asset/engagment/Rosy Glow Backdrop.jpg",
       "price": "PKR 29,000",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Rosy Glow Backdrop.docx"
     },
     {
       "id": "e9",
       "title": "Blushing Bloom Arch",
       "description": "Graceful arch to frame your special moment.",
-      "image": "asset/engagment/Blushing_Bloom_Elegance_Arch.avif",
+      "image": "asset/engagment/Whispering Petals Arch.webp",
       "price": "PKR 31,000",
-      "downloadFile": "asset/Downloads/Engagement/Romantic_Rose_Harmony_Swing.docx"
+      "downloadFile": "asset/engagment/Whispering Petals Arch.docx"
     }
   ],
   "birthday": [
@@ -160,49 +161,49 @@ const allFlowersData = {
       "id": "w1",
       "title": "Blush Pink Roses",
       "description": "Passion and romance in every bloom.",
-      "image": "asset\wedding\BlushPinkRosses.jpg",
+      "image": "asset/wedding/BlushPinkRosses.jpg",
       "price": "PKR 32,000",
-      "downloadFile": "asset/Downloads/Wedding/Romantic_Rose_Harmony_Swing.docxasset\wedding\Blush Pink Rosses.docx"
+      "downloadFile": "asset/Downloads/wedding/Blush Pink Rosses.docx"
     },
     {
       "id": "w2",
       "title": "Pure Petals",
       "description": "Soft tones that whisper love.",
-      "image": "asset\wedding\pure-petals.jpg",
+      "image": "asset/wedding/pure-petals.jpg",
       "price": "PKR 30,000",
-      "downloadFile": "asset\wedding\Pure Petal Designs.docx"
+      "downloadFile": "asset/wedding/Pure Petal Designs.docx"
     },
     {
       "id": "w3",
       "title": "Scarlet Charm",
       "description": "Vibrant hues for timeless beauty.",
-      "image": "asset\wedding\scarlet_charm.jpg",
+      "image": "asset/wedding/scarlet_charm.jpg",
       "price": "PKR 35,000",
-      "downloadFile": "asset\wedding\Scarlet Charm.docx"
+      "downloadFile": "asset/wedding/Scarlet Charm.docx"
     },
     {
       "id": "w4",
       "title": "Soft Bloom Mix",
       "description": "Elegance blended with affection.",
-      "image": "asset\wedding\soft_bloom_mix.jpeg",
+      "image": "asset/wedding/soft_bloom_mix.jpeg",
       "price": "PKR 28,500",
-      "downloadFile": "asset\wedding\Soft Bloom Mix.docx"
+      "downloadFile": "asset/wedding/Soft Bloom Mix.docx"
     },
     {
       "id": "w5",
       "title": "Rosy Glow",
       "description": "Gentle blooms that warm every heart.",
-      "image": "asset\wedding\rosy_glow.jpg",
+      "image": "asset/wedding/rosy_glow.jpg",
       "price": "PKR 26,000",
-      "downloadFile": "asset\wedding\Rosy Glow.docx"
+      "downloadFile": "asset/wedding/Rosy Glow.docx"
     },
     {
       "id": "w6",
       "title": "Rosy Elegance",
       "description": "Classic red for eternal love.",
-      "image": "asset\wedding\Rosy Elegance.jpg",
+      "image": "asset/wedding/Rosy Elegance.jpg",
       "price": "PKR 33,000",
-      "downloadFile": "asset\wedding\Rosy Elegance.docx"
+      "downloadFile": "asset/wedding/Rosy Elegance.docx"
     }
   ],
    "bridalShower": [
@@ -393,6 +394,7 @@ function renderFlowerCards() {
     <div class="decor-card-body">
       <h3>${flower.title}</h3>
       <p>${flower.description}</p>
+      <p>${flower.colorpalette}</p>
       <div class="price">${flower.price}</div>
       ${flower.downloadFile ? `
         <div class="decor-card-buttons">
@@ -604,6 +606,7 @@ function openCompareModal() {
         <img src="${item.image}" alt="${item.title}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
         <h5 style="margin: 10px 0 5px 0; color: #e75480;">${item.title}</h5>
         <p style="color: #6b4b52; font-size: 0.9rem;">${item.description}</p>
+        <p style="color: #6b4b52; font-size: 0.9rem;">${item.colorpalette}</p>
         <div style="margin-top: 8px; font-weight: 600; color: #c7446a;">${item.price}</div>
         <div style="margin-top: 5px; font-size: 0.85rem; color: #999; text-transform: capitalize;">
           Category: ${item.category}
