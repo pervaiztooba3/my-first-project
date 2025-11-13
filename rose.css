@@ -72,9 +72,11 @@ h3 {
 }
 
 .decor-card-body p {
-  font-size: 0.95rem;
-  color: #555;
-  margin-bottom: 10px;
+  font-family: "chead";
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .decor-card-body .decor-price {
@@ -148,59 +150,6 @@ h3 {
   }
 }
 
-.compare-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2000;
-}
-
-.compare-content {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  width: 80%;
-  max-width: 1000px;
-  text-align: center;
-  position: relative;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.compare-grid {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  justify-content: center;
-  padding: 20px 0;
-}
-
-.compare-item {
-  min-width: 200px;
-}
-
-.compare-item img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.decor-close-btn {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 25px;
-  cursor: pointer;
-  color: #e75480;
-}
-
 /* Compare Bar */
 #compare-bar {
   position: fixed;
@@ -233,7 +182,7 @@ h3 {
   border: none;
 }
 
-/* Modal */
+/* Modal with Scrolling */
 .compare-modal {
   position: fixed;
   top: 0;
@@ -245,25 +194,57 @@ h3 {
   justify-content: center;
   align-items: center;
   z-index: 2000;
+  padding: 20px;
 }
 
 .compare-content {
-  background: #fff;
+  background: white;
   padding: 30px;
   border-radius: 10px;
   width: 80%;
   max-width: 1000px;
+  max-height: 90vh;
   text-align: center;
   position: relative;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.compare-content h3 {
+  margin-bottom: 15px;
+  flex-shrink: 0;
 }
 
 .compare-grid {
   display: flex;
   gap: 20px;
   overflow-x: auto;
-  justify-content: center;
+  overflow-y: auto;
+  justify-content: flex-start;
   padding: 20px 0;
+  flex: 1;
+  max-height: calc(90vh - 180px);
+}
+
+/* Custom Scrollbar Styling */
+.compare-grid::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.compare-grid::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.compare-grid::-webkit-scrollbar-thumb {
+  background: #e75480;
+  border-radius: 10px;
+}
+
+.compare-grid::-webkit-scrollbar-thumb:hover {
+  background: #c7446a;
 }
 
 .compare-item {
@@ -285,6 +266,7 @@ h3 {
   font-size: 25px;
   cursor: pointer;
   color: #e75480;
+  z-index: 1;
 }
 
 .btn-read-more {
@@ -308,8 +290,7 @@ h3 {
   transform: scale(0.98);
 }
 
-/* --------------- book now btn css ------------------- */
-
+/* Book Now Button */
 .btn-book-now {
   text-decoration: none;
   display: inline-block;
@@ -341,4 +322,21 @@ h3 {
   flex-wrap: wrap;
 }
 
-/* --------------- book now btn css ------------------- */
+/* Modal Button Container */
+.compare-content > div:last-child {
+  flex-shrink: 0;
+  margin-top: 18px;
+  padding-top: 15px;
+  border-top: 1px solid #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .compare-content {
+    width: 95%;
+    padding: 20px;
+  }
+  
+  .compare-grid {
+    max-height: calc(90vh - 200px);
+  }
+}
