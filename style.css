@@ -77,6 +77,7 @@ a.btn.btn-light.text-dark.fw-semibold {
 
 /* Button */
 .btn53 {
+  text-decoration: none;
   border: 1px solid white;
   background-color: rgb(201, 106, 156);
   color: white;
@@ -289,6 +290,7 @@ color: #000;
 /* ---------- new review ------------------ */
 
 .testimonials {
+  margin-bottom: 65px;
   background-color: #e598e58c;
   padding: 100px 20px;
   text-align: center;
@@ -336,7 +338,8 @@ color: #000;
 }
 
 .card p {
-  font-size: 15px;
+  font-family: "chead";
+  font-size: 17px;
   color: #333;
   line-height: 1.5;
 }
@@ -366,12 +369,19 @@ color: #000;
 /* ---------------- icon ------------------ */
 
 .features-section {
+      margin-bottom: 38px;
   background-color: #fff;
 }
 
 .feature-box {
+  height: 210px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.feature-box p{
+  font-family: "chead";
+}
+
 
 .feature-box:hover {
   transform: translateY(-8px);
