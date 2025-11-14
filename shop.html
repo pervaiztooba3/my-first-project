@@ -12,9 +12,60 @@
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+           </style>
 </head>
 
 <body>
+
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loadingOverlay">
+    <div class="gift-container">
+        <div class="gift-lid">
+            <div class="gift-bow">
+                <div class="gift-bow-center"></div>
+            </div>
+        </div>
+        <div class="gift-box"></div>
+        
+        <!-- Petals Explosion -->
+        <div class="petal">🌸</div>
+        <div class="petal">🌺</div>
+        <div class="petal">🌹</div>
+        <div class="petal">🌷</div>
+        <div class="petal">🌸</div>
+        <div class="petal">🌺</div>
+        <div class="petal">🌹</div>
+        <div class="petal">🌷</div>
+        
+        <!-- Main Flowers -->
+        <div class="flowers">
+            <span class="flower">🌸</span>
+            <span class="flower">🌺</span>
+            <span class="flower">🌹</span>
+            <span class="flower">🌷</span>
+        </div>
+        
+        <!-- Sparkles -->
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        
+        <!-- Hearts -->
+        <div class="heart">💖</div>
+        <div class="heart">💖</div>
+        <div class="heart">💖</div>
+        <div class="heart">💖</div>
+        
+        <div class="loading-text">Loading Shop...</div>
+    </div>
+</div>
 
 <!-- Navbar (separate) -->
 <nav class="navbar navbar-expand-lg navigation fixed-top mb-5">
@@ -58,17 +109,6 @@
     </div> 
   </div>
 </nav>
-
-
-
-
-
-
-
-
-
-
-
 
     <section class="section" data-aos="fade-up">
         <h1 style="color: black;">Flowers basket with Balloons</h1>
@@ -514,6 +554,14 @@
         AOS.init({
             duration: 1000,
             once: true
+        });
+
+        // Hide loading animation and show shop page after animation completes
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loadingOverlay').classList.add('hide');
+                document.body.classList.add('loaded');
+            }, 4200); // 4.2 seconds total animation time
         });
     </script>
 </body>
