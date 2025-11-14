@@ -12,10 +12,11 @@ h3 {
 }
 
 .section {
-  text-align: center;
-  background-color: #ffe6ef;
-  padding: 80px 20px;
-  border-bottom: 3px solid #ffd1dc;
+    margin: 70px 0px 35px 0px;
+    text-align: center;
+    background-color: #ffe6ef;
+    padding: 80px 20px;
+    border-bottom: 3px solid #ffd1dc;
 }
 .section h1 {
   font-size: 3rem;
@@ -162,6 +163,7 @@ footer {
 }
 
 .decor-card-body p {
+  font-family: chead;
   color: #6b4b52;
   font-size: 0.95rem;
   margin-bottom: 10px;

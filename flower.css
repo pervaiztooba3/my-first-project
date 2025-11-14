@@ -1,0 +1,390 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #fff8fb, #ffeef3);
+  overflow-x: hidden;
+}
+
+/* first section */
+.tulip-hero {
+  background-color: #a36979;
+  text-align: center;
+  padding: 120px 20px 80px;
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid #ffd1dc;
+}
+
+.tulip-hero h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #e75480;
+  font-size: 3.2rem;
+}
+
+.tulip-hero p {
+  color: #7a7a7a;
+  max-width: 700px;
+  margin: 10px auto 0;
+  font-size: 1.1rem;
+}
+/* cards */
+.tulip-card {
+  position: relative;
+  border: none;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.tulip-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 30px rgba(231, 84, 128, 0.4);
+}
+
+.tulip-card img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.tulip-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  
+  color: white;
+  padding: 35px 10px 20px;
+  border-radius: 0 0 25px 25px;
+}
+
+.tulip-card-text h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* flower heading */
+.tulip-flower-heading {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.2rem;
+  color: #e75480;
+  text-align: center;
+  letter-spacing: 2px;
+  animation: fadeInUp 1.5s ease;
+}
+
+/* summary */
+.tulip-summary {
+  background: #ffe6ef;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.tulip-summary h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #e75480;
+  font-size: 2.8rem;
+}
+
+.tulip-summary p {
+  color: #7a7a7a;
+  max-width: 800px;
+  margin: 20px auto 40px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+
+.tulip-btn-pink {
+  background-color: #e75480;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.tulip-btn-pink:hover {
+  background-color: #c7446a;
+  transform: scale(1.05);
+}
+
+/* footer */
+.tulip-footer {
+  background: #fff;
+  color: #e75480;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 2px solid #ffd1dc;
+}
+
+
+/* responsive */
+@media (max-width: 767px) {
+  .tulip-hero h1 { font-size: 2.4rem; }
+  .tulip-card img { height: 250px; }
+}
+.rose-hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid #ffd1dc;
+}
+
+.rose-hero h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #e75480;
+  font-size: 3.2rem;
+}
+
+.rose-hero p {
+  color: #7a7a7a;
+  max-width: 700px;
+  margin: 10px auto 0;
+  font-size: 1.1rem;
+}
+
+/* Cards */
+.rose-card {
+  position: relative;
+  border: none;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.rose-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 30px rgba(231, 84, 128, 0.4);
+}
+
+.rose-card img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.rose-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  
+  color: white;
+  padding: 35px 10px 20px;
+  border-radius: 0 0 25px 25px;
+}
+
+.rose-card-text h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Flower Heading */
+.rose-flower-heading {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.2rem;
+  color: #e75480;
+  text-align: center;
+  letter-spacing: 2px;
+  animation: fadeInUp 1.5s ease;
+}
+
+/* Summary Section */
+.rose-summary {
+  background: #ffe6ef;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.rose-summary h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #e75480;
+  font-size: 2.8rem;
+}
+
+.rose-summary p {
+  color: #7a7a7a;
+  max-width: 800px;
+  margin: 20px auto 40px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Button */
+.rose-btn-pink {
+  background-color: #e75480;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.rose-btn-pink:hover {
+  background-color: #c7446a;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.rose-footer {
+  background: #fff;
+  color: #e75480;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 2px solid #ffd1dc;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .rose-hero h1 { font-size: 2.4rem; }
+  .rose-card img { height: 250px; }
+}
+
+/* first Section */
+.orchid-hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+  background: rgba(255,255,255,0.3);
+  backdrop-filter: blur(8px);
+  border-bottom: 2px solid #ffd1dc;
+}
+
+.orchid-hero h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #e75480;
+  font-size: 3.2rem;
+}
+
+.orchid-hero p {
+  color: #7a7a7a;
+  max-width: 700px;
+  margin: 10px auto 0;
+  font-size: 1.1rem;
+}
+
+/* Cards */
+.orchid-card {
+  position: relative;
+  border: none;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.orchid-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 30px rgba(231, 84, 128, 0.4);
+}
+
+.orchid-card img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.orchid-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  
+  color: white;
+  padding: 35px 10px 20px;
+  border-radius: 0 0 25px 25px;
+}
+
+.orchid-card-text h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Flower Heading */
+.orchid-flower-heading {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.2rem;
+  color: #e75480;
+  text-align: center;
+  letter-spacing: 2px;
+  animation: fadeInUp 1.5s ease;
+}
+
+/* Summary Section */
+.orchid-summary {
+  background: #ffe6ef;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.orchid-summary h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #e75480;
+  font-size: 2.8rem;
+}
+
+.orchid-summary p {
+  color: #7a7a7a;
+  max-width: 800px;
+  margin: 20px auto 40px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Button */
+.orchid-btn-pink {
+  background-color: #e75480;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.orchid-btn-pink:hover {
+  background-color: #c7446a;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.orchid-footer {
+  background: #fff;
+  color: #e75480;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 2px solid #ffd1dc;
+}
+
+
+
+/* Responsive */
+@media (max-width: 767px) {
+  .orchid-hero h1 { font-size: 2.4rem; }
+  .orchid-card img { height: 250px; }
+}
