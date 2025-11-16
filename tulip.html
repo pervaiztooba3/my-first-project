@@ -23,6 +23,33 @@
 <body>
 
 
+ <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <div class="loading-flower-container">
+        <!-- Petals -->
+        <div class="loading-petal loading-petal-1"></div>
+        <div class="loading-petal loading-petal-2"></div>
+        <div class="loading-petal loading-petal-3"></div>
+        <div class="loading-petal loading-petal-4"></div>
+        <div class="loading-petal loading-petal-5"></div>
+        <div class="loading-petal loading-petal-6"></div>
+
+        <!-- Flower Center -->
+        <div class="loading-flower-center"></div>
+
+        <!-- Sparkles -->
+        <div class="loading-sparkle"></div>
+        <div class="loading-sparkle"></div>
+        <div class="loading-sparkle"></div>
+        <div class="loading-sparkle"></div>
+        <div class="loading-sparkle"></div>
+
+        <div class="loading-text">Loading Orchids...</div>
+      </div>
+    </div>
+
+
+
   <!-- Navbar (separate) -->
 <nav class="navbar navbar-expand-lg navigation fixed-top">
   <div class="container-fluid">
@@ -35,15 +62,15 @@
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-        <li class="nav-item"><a class="nav-link text-white active" href="home.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link text-white active" href="shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link text-white active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white active" href="shop.html" target="_blank">Shop</a></li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Flowers</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="rose.html">Rose</a></li>
-            <li><a class="dropdown-item" href="">Tuilp</a></li>
-            <li><a class="dropdown-item" href="#">Orchid</a></li>
+            <li><a class="dropdown-item" href="rose.html" target="_blank">Rose</a></li>
+            <li><a class="dropdown-item" href="tulip.html" target="_blank">Tuilp</a></li>
+            <li><a class="dropdown-item" href="orchid.html" target="_blank">Orchid</a></li>
           </ul>
         </li>
 
@@ -65,7 +92,6 @@
     </div> 
   </div>
 </nav>
-
 
 
 
@@ -384,4 +410,13 @@ In the garden of tulips, beauty breathes — eternal, effortless, and divine.</p
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="app.js"></script>
 </body>
+  <script>
+    //  Hide loading animation and show content
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('loadingOverlay').classList.add('hide');
+        document.body.classList.add('loaded');
+      }, 4000); 
+    });
+  </script>
 </html>
