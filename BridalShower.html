@@ -15,8 +15,38 @@
 <body>
 
 
-  <!-- Navbar (separate) -->
-<nav class="navbar navbar-expand-lg navigation fixed-top mb-5">
+  
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-envelope-container">
+    <!-- Envelope Parts -->
+    <div class="loading-envelope-flap-back"></div>
+    <div class="loading-envelope-base"></div>
+    <div class="loading-envelope-flap-front"></div>
+    
+    <!-- Card -->
+    <div class="loading-card">
+      
+      <!-- Card Content -->
+      <div class="loading-card-title_table">BridalShower</div>
+      <div class="loading-card-frame"></div>
+      <div class="loading-card-text">
+        ✓ Ceremony Decor<br>
+        ✓ Reception Setup<br>
+        ✓ Floral Arrangements<br>
+        ✓ Table Centerpieces
+      </div>
+    </div>
+    
+    <div class="loading-text">Loading...</div>
+  </div>
+</div>
+
+
+
+
+    <!-- Navbar (separate) -->
+<nav class="navbar navbar-expand-lg navigation fixed-top">
   <div class="container-fluid">
     <h3 class="navbar-brand text-white fw-bold fs-3" href="#">Blooming Petals</h3>
 
@@ -27,15 +57,15 @@
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-        <li class="nav-item"><a class="nav-link text-white active" href="home.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link text-white active" href="shop.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link text-white active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white active" href="shop.html" target="_blank">Shop</a></li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Flowers</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Rose</a></li>
-            <li><a class="dropdown-item" href="#">Lavender</a></li>
-            <li><a class="dropdown-item" href="#">Baby Breath</a></li>
+            <li><a class="dropdown-item" href="rose.html" target="_blank">Rose</a></li>
+            <li><a class="dropdown-item" href="tulip.html" target="_blank">Tuilp</a></li>
+            <li><a class="dropdown-item" href="orchid.html" target="_blank">Orchid</a></li>
           </ul>
         </li>
 
@@ -167,6 +197,13 @@
 
   <script>
     AOS.init({ duration: 1000, once: true });
+    // Hide loading animation and show content
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('loadingOverlay').classList.add('hide');
+        document.body.classList.add('loaded');
+      }, 5000); 
+    });
   </script>
 </body>
 </html>
