@@ -21,8 +21,8 @@
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
     <!-- link CSS -->
-    <link rel="stylesheet" href="flower.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="flower.css">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -73,10 +73,15 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
             <li class="nav-item">
-              <a class="nav-link text-white active" href="home.html">Home</a>
+              <a class="nav-link text-white active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white active" href="shop.html">Shop</a>
+              <a
+                class="nav-link text-white active"
+                href="shop.html"
+                target="_blank"
+                >Shop</a
+              >
             </li>
 
             <li class="nav-item dropdown">
@@ -88,9 +93,21 @@
                 >Flowers</a
               >
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="rose.html">Rose</a></li>
-                <li><a class="dropdown-item" href="">Tuilp</a></li>
-                <li><a class="dropdown-item" href="#">Orchid</a></li>
+                <li>
+                  <a class="dropdown-item" href="rose.html" target="_blank"
+                    >Rose</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="tulip.html" target="_blank"
+                    >Tuilp</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="orchid.html" target="_blank"
+                    >Orchid</a
+                  >
+                </li>
               </ul>
             </li>
 
@@ -248,8 +265,11 @@
           data-aos-delay="400"
         >
           <div class="orchid-card">
-            <img src="asset/orchid/Romantic_Rose_Harmony_Swing.jpg" alt=" Orchid
-            Bloom"/>
+            <img
+              src="asset/orchid/Romantic_Rose_Harmony_Swing.jpg"
+              alt=" Orchid
+            Bloom"
+            />
             <div class="orchid-card-text">
               <h3>Majestic Bloom</h3>
               <p>
@@ -643,13 +663,13 @@
     <script src="app.js"></script>
 
     <script>
-    //  Hide loading animation and show content
-    window.addEventListener('load', function() {
-      setTimeout(function() {
-        document.getElementById('loadingOverlay').classList.add('hide');
-        document.body.classList.add('loaded');
-      }, 4000); 
-    });
-  </script>
+      //  Hide loading animation and show content
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.getElementById("loadingOverlay").classList.add("hide");
+          document.body.classList.add("loaded");
+        }, 4000);
+      });
+    </script>
   </body>
 </html>
