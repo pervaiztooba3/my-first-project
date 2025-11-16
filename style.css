@@ -101,6 +101,7 @@ a.btn.btn-light.text-dark.fw-semibold {
   }
   .hero-text {
     margin: 0 15px;
+
   }
 }
 
@@ -181,8 +182,9 @@ a.btn.btn-light.text-dark.fw-semibold {
 }
 
 /* Right text section */
-.right {
+.index-third-right {
   background-color: #ffecef;
+    height: 509px;
 }
 
 .home_sec_part_right_h_1 {
