@@ -388,3 +388,333 @@ body {
   .orchid-hero h1 { font-size: 2.4rem; }
   .orchid-card img { height: 250px; }
 }
+
+
+
+ /* Loading Animation */
+      .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #fff8fb 0%, #ffe6ef 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.8s ease, visibility 0.8s ease;
+        overflow: hidden;
+      }
+
+      .loading-overlay.hide {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .loading-flower-container {
+        position: relative;
+        top: -79px;
+        width: 400px;
+        height: 400px;
+      }
+      /* Flower Center */
+      .loading-flower-center {
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        background: radial-gradient(circle, #fff59d 30%, #fdd835 70%);
+        border-radius: 50%;
+        opacity: 0;
+        animation: centerPop 0.8s ease-out 2s forwards;
+        box-shadow: 0 0 25px rgba(253, 216, 53, 0.6),
+          inset 0 0 15px rgba(255, 255, 255, 0.5);
+        z-index: 10;
+      }
+
+      .loading-flower-center::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25px;
+        height: 25px;
+        background: radial-gradient(circle, #fff 50%, transparent 70%);
+        border-radius: 50%;
+      }
+
+      @keyframes centerPop {
+        0% {
+          opacity: 0;
+          transform: translate(-50%, -50%) scale(0);
+        }
+        60% {
+          transform: translate(-50%, -50%) scale(1.3);
+        }
+        100% {
+          opacity: 1;
+          transform: translate(-50%, -50%) scale(1);
+        }
+      }
+
+      /* Orchid Petals - Better Shape */
+      .loading-petal {
+        position: absolute;
+        transform-origin: center center;
+        opacity: 0;
+        animation: petalJoin 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+          forwards;
+      }
+
+      @keyframes petalJoin {
+        0% {
+          opacity: 0;
+          transform: translate(var(--start-x), var(--start-y)) scale(0.3)
+            rotate(var(--start-rotate));
+        }
+        100% {
+          opacity: 1;
+          transform: translate(var(--end-x), var(--end-y)) scale(1)
+            rotate(var(--end-rotate));
+        }
+      }
+
+      /* Petal 1 - Top Center */
+      .loading-petal-1 {
+        width: 65px;
+        height: 85px;
+        background: linear-gradient(
+          180deg,
+          #ffc1e3 0%,
+          #f48fb1 50%,
+          #ec407a 100%
+        );
+        border-radius: 50% 50% 45% 45% / 60% 60% 40% 40%;
+        top: 50%;
+        left: 50%;
+        --start-x: 0px;
+        --start-y: -250px;
+        --end-x: -32px;
+        --end-y: -95px;
+        --start-rotate: -180deg;
+        --end-rotate: 0deg;
+        animation-delay: 0.2s;
+        box-shadow: 0 6px 20px rgba(236, 64, 122, 0.5),
+          inset 0 -10px 20px rgba(255, 255, 255, 0.3);
+      }
+
+      /* Petal 2 - Top Right */
+      .loading-petal-2 {
+        width: 60px;
+        height: 75px;
+        background: linear-gradient(
+          145deg,
+          #ffc1e3 0%,
+          #f48fb1 50%,
+          #ec407a 100%
+        );
+        border-radius: 50% 50% 48% 48% / 60% 60% 40% 40%;
+        top: 50%;
+        left: 50%;
+        --start-x: 250px;
+        --start-y: -180px;
+        --end-x: 50px;
+        --end-y: -55px;
+        --start-rotate: 200deg;
+        --end-rotate: 60deg;
+        animation-delay: 0.4s;
+        box-shadow: 0 6px 20px rgba(236, 64, 122, 0.5),
+          inset 0 -8px 15px rgba(255, 255, 255, 0.3);
+      }
+
+      /* Petal 3 - Bottom Right */
+      .loading-petal-3 {
+        width: 60px;
+        height: 75px;
+        background: linear-gradient(
+          135deg,
+          #ffc1e3 0%,
+          #f48fb1 50%,
+          #ec407a 100%
+        );
+        border-radius: 48% 48% 50% 50% / 40% 40% 60% 60%;
+        top: 50%;
+        left: 50%;
+        --start-x: 250px;
+        --start-y: 180px;
+        --end-x: 48px;
+        --end-y: 28px;
+        --start-rotate: 400deg;
+        --end-rotate: 130deg;
+        animation-delay: 0.6s;
+        box-shadow: 0 6px 20px rgba(236, 64, 122, 0.5),
+          inset 0 8px 15px rgba(255, 255, 255, 0.3);
+      }
+
+      /* Petal 4 - Bottom Left */
+      .loading-petal-4 {
+        width: 60px;
+        height: 75px;
+        background: linear-gradient(
+          125deg,
+          #ffc1e3 0%,
+          #f48fb1 50%,
+          #ec407a 100%
+        );
+        border-radius: 48% 48% 50% 50% / 40% 40% 60% 60%;
+        top: 53%;
+        left: 45%;
+        --start-x: -250px;
+        --start-y: 180px;
+        --end-x: -78px;
+        --end-y: 28px;
+        --start-rotate: -400deg;
+        --end-rotate: 230deg;
+        animation-delay: 0.8s;
+        box-shadow: 0 6px 20px rgba(236, 64, 122, 0.5),
+          inset 0 8px 15px rgba(255, 255, 255, 0.3);
+      }
+
+      /* Petal 5 - Top Left */
+      .loading-petal-5 {
+        width: 60px;
+        height: 75px;
+        background: linear-gradient(
+          155deg,
+          #ffc1e3 0%,
+          #f48fb1 50%,
+          #ec407a 100%
+        );
+        border-radius: 50% 50% 48% 48% / 60% 60% 40% 40%;
+        top: 52%;
+        left: 43%;
+        --start-x: -250px;
+        --start-y: -180px;
+        --end-x: -80px;
+        --end-y: -55px;
+        --start-rotate: -200deg;
+        --end-rotate: 300deg;
+        animation-delay: 1s;
+        box-shadow: 0 6px 20px rgba(236, 64, 122, 0.5),
+          inset 0 -8px 15px rgba(255, 255, 255, 0.3);
+      }
+
+      /* Additional decorative petals for fuller look */
+      .loading-petal-6 {
+        width: 50px;
+        height: 60px;
+        background: linear-gradient(180deg, #f8bbd0 0%, #f48fb1 100%);
+        border-radius: 50%;
+        top: 55%;
+        left: 51%;
+        --start-x: 0px;
+        --start-y: 250px;
+        --end-x: -25px;
+        --end-y: 55px;
+        --start-rotate: 180deg;
+        --end-rotate: 180deg;
+        animation-delay: 1.2s;
+        box-shadow: 0 4px 15px rgba(244, 143, 177, 0.4),
+          inset 0 5px 10px rgba(255, 255, 255, 0.4);
+        z-index: 5;
+      }
+
+      /* Sparkles */
+      .loading-sparkle {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        background: radial-gradient(circle, #fff, #ffd1dc);
+        border-radius: 50%;
+        opacity: 0;
+        animation: sparkleShine 1.5s ease-out forwards;
+        box-shadow: 0 0 10px #ffd1dc;
+      }
+
+      @keyframes sparkleShine {
+        0% {
+          opacity: 0;
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+          transform: scale(2) translate(var(--tx), var(--ty));
+        }
+      }
+
+      .loading-sparkle:nth-child(1) {
+        top: 30%;
+        left: 40%;
+        --tx: -30px;
+        --ty: -30px;
+        animation-delay: 1.8s;
+      }
+      .loading-sparkle:nth-child(2) {
+        top: 40%;
+        left: 60%;
+        --tx: 30px;
+        --ty: -25px;
+        animation-delay: 2s;
+      }
+      .loading-sparkle:nth-child(3) {
+        top: 60%;
+        left: 35%;
+        --tx: -35px;
+        --ty: 20px;
+        animation-delay: 2.2s;
+      }
+      .loading-sparkle:nth-child(4) {
+        top: 60%;
+        left: 65%;
+        --tx: 35px;
+        --ty: 20px;
+        animation-delay: 2.4s;
+      }
+      .loading-sparkle:nth-child(5) {
+        top: 50%;
+        left: 50%;
+        --tx: 0px;
+        --ty: -40px;
+        animation-delay: 2.6s;
+      }
+
+      /* Loading Text */
+      .loading-text {
+        position: absolute;
+        bottom: 1px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: "Great Vibes", cursive;
+        font-size: 32px;
+        color: #e75480;
+        white-space: nowrap;
+        animation: textPulse 2s ease-in-out infinite;
+        text-shadow: 0 2px 10px rgba(231, 84, 128, 0.3);
+      }
+
+      @keyframes textPulse {
+        0%,
+        100% {
+          opacity: 0.6;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      /* Hide content initially */
+      body > *:not(.loading-overlay) {
+        opacity: 0;
+        transition: opacity 0.8s ease;
+      }
+
+      body.loaded > *:not(.loading-overlay) {
+        opacity: 1;
+      }
