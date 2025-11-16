@@ -677,80 +677,16 @@ body {
 
 /* ------------------- order done page ----------------------------------------- */
 
-
-/* ---------------------- Book Now Page ----------------------------------- */
-
-/* .booknow-section {
-  background-color: #ffe6ef;
-  padding: 60px 20px;
-  border-bottom: 3px solid #ffd1dc;
-  text-align: center;
-}
-
-.booknow-section h1 {
-  font-family: "Great Vibes", cursive;
-  color: #e75480;
-  font-size: 3rem;
-}
-
-.booknow-section p {
-  color: #b36e6e;
-  font-family: "Great Vibes", cursive;
-  font-size: 22px;
-}
-
-.booknow-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 50px auto;
-  max-width: 700px;
-}
-
-.booknow-form {
-  background: white;
-  width: 100%;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.booknow-form label {
-  color: #e75480;
-  font-weight: 600;
-}
-
-.booknow-form input,
-.booknow-form select,
-.booknow-form textarea {
-  border-radius: 10px;
-  border: 1px solid #ffd1dc;
-}
-
-.booknow-btn {
-  background-color: #e75480;
-  color: white;
-  border-radius: 30px;
-  padding: 12px 25px;
-  font-size: 1rem;
-  transition: all 0.3s ease;
-  border: none;
-}
-
-.booknow-btn:hover {
-  background-color: #c7446a;
-  transform: scale(1.05);
-} */
-
 /* ------------------boooook nowwwwwww ---------------------------------------------- */
+/* --------------------------------- Book Now Page ----------------------------------- */
 
-   /* .booknow-bigbox{
-      font-family: 'Open Sans', sans-serif;
-      background: linear-gradient(135deg, #ffeef8 0%, #ffe6f0 100%);
-      min-height: 100vh;
-      padding: 40px 0;
-    }
+.booknow-bigbox {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #ffeef8 0%, #ffe6f0 100%);
+    min-height: 100vh;
+    padding: 40px 0;
+    margin: 73px 0px 0px 0px;
+}
     
     .booknow-container {
       max-width: 800px;
@@ -873,8 +809,10 @@ body {
       background: linear-gradient(135deg, #ffeef8 0%, #ffe6f0 100%);
 
       }
-    } */
-/* ------------------boooook nowwwwwww ---------------------------------------------- */
+    }
+
+
+
 /* ---------------------- Book Now Page ----------------------------------- */
 
 /* -------------------------- booking done page --------------------------------- */
